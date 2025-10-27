@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contacto</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="1.inicio.html">INICIO</a></li>
+            <li><a href="2.acerca.html">SOBRE MÍ</a></li>
+            <li><a href="3.trabajos.html">TRABAJOS</a></li>
+            <li><a href="4.contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+  <section class="container_completatusdatos">
+    <form class="completatusdatos" novalidate>
+
+      <!-- Título del formulario -->
+      <h1 class="titulo_formularios">Solicitud de trabajo</h1>
+
+      <!-- Nombre completo -->
+      <div class="rellenar">
+        <p class="subtitulos_formularios">Nombre completo</p>
+        <input class="estilo_input" type="text" id="nombre-completo" name="nombre_completo" placeholder="Nombre completo *" required>
+      </div>
+
+      <!-- Email -->
+      <div class="rellenar">
+        <p class="subtitulos_formularios">Email</p>
+        <input class="estilo_input" type="email" id="email" name="email" placeholder="hola123@email.com *" required>
+      </div>
+
+      <!-- Repetir Email -->
+      <div class="rellenar">
+        <p class="subtitulos_formularios">Repetir email</p>
+        <input class="estilo_input" type="email" id="repetir_email" name="repetir-email" placeholder="Repite tu email *" required>
+      </div>
+
+      <!-- Teléfono -->
+      <div class="rellenar">
+        <p class="subtitulos_formularios">Número de teléfono</p>
+        <input class="estilo_input" type="tel" id="telefono" name="telefono" placeholder="+54... *" required>
+      </div>
+
+      <!-- Detalles del proyecto -->
+      <div class="textarea">
+        <p class="subtitulos_formularios">Detalles del proyecto</p>
+        <textarea class="columna_escribinos" id="detalles_proyecto" name="detalles-proyecto" placeholder="Escribe aquí una breve descripción *" required rows="5"></textarea>
+      </div>
+
+      <!-- Botón enviar -->
+      <div class="enviar_mensaje">
+        <input class="boton_enviar_formulario" type="submit" value="Enviar">
+      </div>
+
+    </form>
+  </section>
+</main>
